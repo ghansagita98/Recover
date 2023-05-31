@@ -8,7 +8,7 @@ const int BLOCK_SIZE = 512;
 
 typedef struct JPEG_BLOCK
 {
-    uint8_t bytes[BLOCK_SIZE]; // contain aall bytes of a block in an array
+    uint8_t bytes[BLOCK_SIZE]; // contain all bytes of a block in an array
 } jpeg;
 
 void make_filename(int i, string container);
